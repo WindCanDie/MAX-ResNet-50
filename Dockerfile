@@ -40,5 +40,6 @@ RUN if [ "$use_pre_trained_model" = "true" ] ; then \
     fi
 
 EXPOSE 5000
+USER infra
 
 
